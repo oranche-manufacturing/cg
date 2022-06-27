@@ -1,0 +1,28 @@
+"cg"
+{
+	"base"			"base"
+	"title"			"Class Game (undecided)"
+	"maps"			"^cg_"
+	"category"		"pvp"
+	"menusystem"	"1"
+
+	"settings"
+	{
+		1
+		{
+			"name"			"cg_gamemode"
+			"text"			"Game Type"
+			"help"			"Modes like TDM, CTF, FFA"
+			"type"			"Text"
+			"default"		"sandbox"
+		}
+		2
+		{
+			"name"			"cg_friendlyfire"
+			"text"			"Friendly fire"
+			"help"			"Enable friendly fire"
+			"type"			"CheckBox"
+			"default"		"0"
+		}
+	}
+}
